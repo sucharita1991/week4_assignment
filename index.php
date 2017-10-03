@@ -30,6 +30,9 @@ foreach ($positions as $value) {
 echo "</br> Number of words in date:";
 echo str_word_count($date)."</br>";
 
+$string1 = "My name is Sucharita Das";
+echo "The length of string: ".$string1." is ".strlen($string1)."</br>";
+
 $year = array("2012", "396", "300","2000", "1100", "1089");
 echo "The value of \$year: ";
 print_r($year)
