@@ -27,7 +27,8 @@ while (($lastPos = strpos($date, "/", $lastPos))!== false) {
 foreach ($positions as $value) {
     echo $value ."&nbsp;";
 }
-echo "</br>";
+echo "</br> Number of words in date:";
+echo str_word_count($date)."</br>";
 
 $year = array("2012", "396", "300","2000", "1100", "1089");
 echo "The value of \$year: ";
