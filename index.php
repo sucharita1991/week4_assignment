@@ -35,6 +35,8 @@ echo "The length of string: ".$string1." is ".strlen($string1)."</br>";
 
 echo "The Ascii code of first character of string: ".$string1." is: ".ord(substr($string1, 0,1))."</br>";
 
+echo "The last 2 characters of ".$date. " is ".substr($date, -2)."</br>";
+
 $year = array("2012", "396", "300","2000", "1100", "1089");
 echo "The value of \$year: ";
 print_r($year)
